@@ -3,3 +3,4 @@ node_modules/
 generator-cordova-ripple.iml
 
 *.DS_Store
+*.log
