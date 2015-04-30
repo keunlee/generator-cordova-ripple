@@ -30,6 +30,7 @@ These commands should be available globally in the command line/terminal.
 3. Bower: `npm install -g bower`
 4. Yeoman: `npm install -g yo`
 5. Cordova: `npm install -g cordova`
+6. Ripple Emulator: `npm install -g ripple-emulator`
 
 For various platform environments such as Android and iOS, you'll want to install the respective SDKs and Cordova Platform Plugins. For more info, see https://cordova.apache.org/docs/en/4.0.0/guide_platforms_index.md.html#Platform%20Guides
 
