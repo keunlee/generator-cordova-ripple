@@ -1,7 +1,7 @@
 # generator-cordova-ripple
 A Yeoman Generator for creating a Cordova Application Skeleton which runs in the Ripple Emulator
 
-## overview
+## Overview
 This generator creates a skeleton Cordova project for you to build upon afterwards. It does the following: 
 
 1. Starts the Ripple Emulator in a browser and will begin watching your CSS and JS, and rebuild every time you save a change. It will auto refresh the ripple emulator's viewport too.
@@ -9,9 +9,9 @@ This generator creates a skeleton Cordova project for you to build upon afterwar
 3. Dynamically wires javascript dependencies to your index.html file when adding javascript libraries through bower. 
 4. Creates a Cordova friendly project
 
-## requirements
+## Requirements
 
-### pre-prerequisites
+### Pre-prerequisites
 Install these if you do not have them
 
 1. Node.JS
@@ -24,7 +24,7 @@ If you're not sure if they're installed, run these commands from the command lin
 
 These commands should be available globally in the command line/terminal. 
 
-### prerequisites
+### Prerequisites
 1. Compass: `gem install compass`
 2. Grunt: `npm install -g grunt-cli`
 3. Bower: `npm install -g bower`
@@ -34,14 +34,14 @@ These commands should be available globally in the command line/terminal.
 
 For various platform environments such as Android and iOS, you'll want to install the respective SDKs and Cordova Platform Plugins. For more info, see https://cordova.apache.org/docs/en/4.0.0/guide_platforms_index.md.html#Platform%20Guides
 
-## installation
+## Installation
 1. Install the generator: `npm install -g generator-cordova-ripple`
 2. Create a working directory and navigate into it:
     1. `mkdir my-cordova-ripple-project`
     2. `cd my-cordova-ripple-project`
 3. Run the generator to generate project files: `yo cordova-ripple`
 
-## usage
+## Usage
 
 ### Running the Emulator
 Make sure you are in the root of your working directory and run the following from the command line:  
