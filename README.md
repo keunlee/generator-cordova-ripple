@@ -1,5 +1,5 @@
 # generator-cordova-ripple
-A Yeoman Generator for creating a Cordova Application Skeleton using the Ripple Emulator
+A Yeoman Generator for creating a Cordova Application Skeleton which runs in the Ripple Emulator
 
 ## overview
 This generator creates a skeleton Cordova project for you to build upon afterwards. It does the following: 
