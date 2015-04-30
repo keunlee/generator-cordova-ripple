@@ -38,11 +38,12 @@ For various platform environments such as Android and iOS, you'll want to instal
 2. Create a working directory and navigate into it:
     1. `mkdir my-cordova-ripple-project`
     2. `cd my-cordova-ripple-project`
+    3. `yo cordova-ripple`
 
 ## usage
 
 ### Running the Emulator
-Make sure you are in the root of your workig directory and run the following from the command line:  
+Make sure you are in the root of your working directory and run the following from the command line:  
 
 `grunt`
 
