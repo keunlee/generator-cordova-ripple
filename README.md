@@ -38,7 +38,7 @@ For various platform environments such as Android and iOS, you'll want to instal
 2. Create a working directory and navigate into it:
     1. `mkdir my-cordova-ripple-project`
     2. `cd my-cordova-ripple-project`
-    3. `yo cordova-ripple`
+3. Run the generator to generate project files: `yo cordova-ripple`
 
 ## usage
 
