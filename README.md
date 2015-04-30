@@ -36,8 +36,8 @@ For various platform environments such as Android and iOS, you'll want to instal
 ## installation
 1. Install the generator: `npm install -g generator-cordova-ripple`
 2. Create a working directory and navigate into it:
-⋅⋅1. `mkdir my-cordova-ripple-project`
-⋅⋅2. `cd my-cordova-ripple-project`
+    1. `mkdir my-cordova-ripple-project`
+    2. `cd my-cordova-ripple-project`
 
 ## usage
 
@@ -58,8 +58,8 @@ This will install your library and update your index.html file to reflect the ne
 1. All developments for your project should be contained within the "www" folder, which is created after running this generator.
 2. Sass development for this generator has been configured to reference the .scss file located at `www/styles/main.scss`. When you update this file, another file, `main.css` will be created/updated, which is currently referenced by the application.
 3. When running your generated application for other platforms (i.e. android, iOS), besides the 'browser' platform, make sure to run the following to update the files for the platform you wish to run against: 
-⋅⋅1. `grunt build`
-⋅⋅2. `cordova prepare`
+    1. `grunt build`
+    2. `cordova prepare`
 
 Note: Before running the above, the assumption here is that you have already added a platform to your project i.e. `cordova platform add ios`.
 
