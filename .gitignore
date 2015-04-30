@@ -1,1 +1,5 @@
 node_modules/
+.idea/
+generator-cordova-ripple.iml
+
+*.DS_Store

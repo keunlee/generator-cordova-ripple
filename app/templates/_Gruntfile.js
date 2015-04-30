@@ -110,15 +110,15 @@ module.exports = function (grunt) {
 
               var opt = opt || {};
               var rules = opt.rules || [{
-                  match: /<\/body>/,
-                  fn: prepend
-                }, {
-                  match: /<\/html>/,
-                  fn: prepend
-                }, {
-                  match: /<\!DOCTYPE.+>/,
-                  fn: append
-                }];
+                    match: /<\/body>/,
+                    fn: prepend
+                  }, {
+                    match: /<\/html>/,
+                    fn: prepend
+                  }, {
+                    match: /<\!DOCTYPE.+>/,
+                    fn: append
+                  }];
               var write = res.write;
 
               res.write = function (string, encoding) {
@@ -313,6 +313,12 @@ module.exports = function (grunt) {
         cwd: '.tmp/styles/',
         dest: '<%= config.app %>/styles',
         src: '{,*/}*.css'
+      },
+      bowerComponents: {
+        expand: true,
+        cwd: 'bower_components',
+        dest: '<%= config.app %>/bower_components',
+        src: '**/*'
       }
     },
 
@@ -393,6 +399,8 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'compass:server',
-    'copy:platform'
+    'copy:platform',
+    'wiredep',
+    'copy:bowerComponents'
   ]);
 };
