@@ -63,7 +63,7 @@ This will install your library and update your index.html file to reflect the ne
     1. When you update this file, another file, `main.css` will be created/updated, which is currently referenced by the application.
     2. To reference sass files from with in the `main.scss`, do so by doing the following: 
         1. create another scss file prefixed with an underscore (i.e. _reference.scss). The underscore tells compass to ignore that file when processing. 
-        2. add an import statement in `main.scss`, i.e. `@import "references"`, without the underscore and without the extension. 
+        2. add an import statement in `main.scss`, i.e. `@import "reference"`, without the underscore and without the extension. 
         3. when your sass files are compiled, you should see the file `main.css` updated to reflect all changes between `main.scss` and imported sass files. 
 3. When running your generated application for other platforms (i.e. android, iOS), besides the 'browser' platform, make sure to run the following to update the files for the platform you wish to run against: 
 
