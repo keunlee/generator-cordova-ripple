@@ -69,7 +69,7 @@ This will install your library and update your index.html file to reflect the ne
 
 `grunt build`
 
-Note: 
+4. Additional Notes
     1. Before running the above, the assumption here is that you have already added a platform to your project i.e. `cordova platform add ios`.
     2. If you're not running the server, and you want to update a platform, you can still run the above command `grunt build`.
 
