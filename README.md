@@ -16,6 +16,7 @@ Install these if you do not have them
 
 1. Node.JS
 2. Ruby
+3. Python 2.7
 
 If you're not sure if they're installed, run these commands from the command line/terminal:
 
@@ -58,12 +59,19 @@ This will install your library and update your index.html file to reflect the ne
 ### Development
 
 1. All developments for your project should be contained within the "www" folder, which is created after running this generator.
-2. Sass development for this generator has been configured to reference the .scss file located at `www/styles/main.scss`. When you update this file, another file, `main.css` will be created/updated, which is currently referenced by the application.
+2. Sass development for this generator has been configured to reference the .scss file located at `www/styles/main.scss`. 
+    1. When you update this file, another file, `main.css` will be created/updated, which is currently referenced by the application.
+    2. To reference sass files from with in the `main.scss`, do so by doing the following: 
+        1. create another scss file prefixed with an underscore (i.e. _reference.scss). The underscore tells compass to ignore that file when processing. 
+        2. add an import statement in `main.scss`, i.e. `@import "references"`, without the underscore and without the extension. 
+        3. when your sass files are compiled, you should see the file `main.css` updated to reflect all changes between `main.scss` and imported sass files. 
 3. When running your generated application for other platforms (i.e. android, iOS), besides the 'browser' platform, make sure to run the following to update the files for the platform you wish to run against: 
-    1. `grunt build`
-    2. `cordova prepare`
 
-Note: Before running the above, the assumption here is that you have already added a platform to your project i.e. `cordova platform add ios`.
+`grunt build`
+
+Note: 
+    1. Before running the above, the assumption here is that you have already added a platform to your project i.e. `cordova platform add ios`.
+    2. If you're not running the server, and you want to update a platform, you can still run the above command `grunt build`.
 
 ## Useful References
 
