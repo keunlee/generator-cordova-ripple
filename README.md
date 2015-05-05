@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/keunlee/generator-cordova-ripple.svg?branch=master)](https://travis-ci.org/keunlee/generator-cordova-ripple)
+
 # generator-cordova-ripple
 A Yeoman Generator for creating a Cordova Application Skeleton which runs in the Ripple Emulator
 
