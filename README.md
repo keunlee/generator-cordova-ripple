@@ -24,6 +24,7 @@ If you're not sure if they're installed, run these commands from the command lin
 
 1. `node -v`
 2. `ruby -v`
+3. `python --version`
 
 These commands should be available globally in the command line/terminal. 
 
